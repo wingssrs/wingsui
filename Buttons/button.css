@@ -1,0 +1,287 @@
+body{
+  background: #e0e5ec;
+}
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #3e07a5;
+
+  --white: #FFFFFF;
+
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+
+  --greyDark: #9baacf;
+
+  --secondary-light: #9c26e0;
+  --secondary:#6c00b0 ;
+  --secondary-dark:#31024e ;
+
+  --success:#4dc769;
+  --success-light:#5bd477;
+  --success-dark:#0a6d21;
+
+  --danger:#f93154;
+  --danger-light:#fa90a2;
+  --danger-dark:#9e001a;
+
+  --warning: #d99000;
+  --warning-light: #e7c277;
+  --warning-dark: #9e6b05;
+
+  --info:#39c0ed;
+  --info-light:#93d5eb;
+  --info-dark:#10627e;
+
+  --dark:#262626;
+  --dark-light:#414040;
+  --dark-dark:#000000;
+}
+
+.container {
+  margin:20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+button{
+  margin: 10px;
+}
+
+
+/* -----------------------------------    Default  buttons    ------------------------------------------------------ */
+
+.wbtn {
+  width: fit-content;
+  height: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 2rem;;
+}
+
+.wbtn:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* default btns*/
+
+.wbtn-primary {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--primary);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light), inset -0.2rem -0.2rem 1rem var(--primary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-primary:hover {
+  color: var(--white);
+}
+.wbtn-primary:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
+}
+
+/* btn light */
+.wbtn-light {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  color: var(--greyDark);
+}
+.wbtn-light:hover {
+  color: var(--primary);
+}
+.wbtn-light:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+
+/* btn secondary */
+
+.wbtn-secondary {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--secondary);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--secondary-light), inset -0.2rem -0.2rem 1rem var(--secondary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-secondary:hover {
+  color: var(--white);
+}
+.wbtn-secondary:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--secondary-dark), inset -0.2rem -0.2rem 1rem var(--secondary-light);
+}
+
+
+/* btn success */
+
+.wbtn-success {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--success);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--success-light), inset -0.2rem -0.2rem 1rem var(--success-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-success:hover {
+  color: var(--white);
+}
+.wbtn-success:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--success-dark), inset -0.2rem -0.2rem 1rem var(--success-light);
+}
+
+
+/* btn warning */
+
+.wbtn-warning {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--warning);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--warning-light), inset -0.2rem -0.2rem 1rem var(--warning-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-warning:hover {
+  color: var(--white);
+}
+.wbtn-warning:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--warning-dark), inset -0.2rem -0.2rem 1rem var(--warning-light);
+}
+
+
+/* btn info */
+
+.wbtn-info {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--info);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--info-light), inset -0.2rem -0.2rem 1rem var(--info-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-info:hover {
+  color: var(--white);
+}
+.wbtn-info:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--info-dark), inset -0.2rem -0.2rem 1rem var(--info-light);
+}
+
+
+/* btn danger */
+
+.wbtn-danger {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--danger);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--danger-light), inset -0.2rem -0.2rem 1rem var(--danger-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-danger:hover {
+  color: var(--white);
+}
+.wbtn-danger:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--danger-dark), inset -0.2rem -0.2rem 1rem var(--danger-light);
+}
+
+/* btn dark */
+
+.wbtn-dark {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: var(--dark);
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--dark-light), inset -0.2rem -0.2rem 1rem var(--dark-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--greyLight-1);
+}
+.wbtn-dark:hover {
+  color: var(--white);
+}
+.wbtn-dark:active {
+  box-shadow: inset 0.2rem 0.2rem 1rem var(--dark-dark), inset -0.2rem -0.2rem 1rem var(--dark-light);
+}
+
+/* Button raised*/
+.wbtn-raised {
+  cursor: pointer;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 1rem 3rem;
+  color: #9baacf;
+  background: #e0e5ec;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #fff, inset -0.2rem -0.2rem 0.5rem rgba(195, 193, 198, 0.9), 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+}
+
+.wbtn-raised:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff;
+}
+
+/* small button */
+.wbtn-sm {
+  width: 6rem;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+/* large button */
+.wbtn-lg{
+  width: 10rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+ /* button block */
+ .wbtn-block{
+  width: 100%;
+}
+
+
+/* circular button */
+.wbtn-circle{
+  border-radius: 50%;
+  width: 2.3125rem;
+  height: 2.3125rem;
+  font-size: .75rem;
+  color:#414040;
+  padding: 0 1rem;
+}
+
+/* social button */
+.wbtn-social{
+  padding: 0 1rem;
+  width: 50px;
+  font-size: 16px;
+}
+
+
+
+/*-------------------------------------*/
+.wbtn-ridge {
+  cursor: pointer;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 1rem 3rem;
+  color: #9baacf;
+  background: #e0e5ec;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+}
+.wbtn-ridge:active{
+  box-shadow: inset 0.5rem 0.2rem 1rem rgb(185 175 185 / 27%), inset -0.1rem -0.1rem #fff;
+}
+
+/*----------------------------------------*/
+
+.wbtn-sunken {
+  cursor: pointer;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 1rem 3rem;
+  color: #9baacf;
+  background: #e0e5ec;
+  box-shadow: -0.3rem -0.3rem 0.5rem rgba(195, 193, 198, 0.9), 0.2rem 0.2rem 0.4rem #fff;
+}
+.wbtn-sunken:active{
+  box-shadow: -0.3rem -0.3rem 0.5rem rgb(246 246 246), 0.2rem 0.2rem 0.4rem #b6bfcb;
+}
