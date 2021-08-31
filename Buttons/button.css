@@ -39,12 +39,6 @@ body{
   --dark-dark:#000000;
 }
 
-.container {
-  margin:20px;
-  display: flex;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-}
 button{
   margin: 10px;
 }
