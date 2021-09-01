@@ -57,7 +57,7 @@ body{
   font-size: 1rem;
   font-weight: bold;
   padding: 0 2rem;
-  color: var(--greyDark);
+  color: #9baacf;
 }
 
 .wbtn:active {
