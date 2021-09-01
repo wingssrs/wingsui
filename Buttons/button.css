@@ -228,6 +228,11 @@ body{
   width: 100%;
 }
 
+/* rounded button */
+.wbtn-rounded{
+  border-radius: 30px;
+}
+
 
 /* circular button */
 .wbtn-circle{
