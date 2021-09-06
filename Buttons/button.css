@@ -209,6 +209,14 @@ body{
   box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff;
 }
 
+
+.wbtn-hover-raised:hover{
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #fff, inset -0.2rem -0.2rem 0.5rem rgba(195, 193, 198, 0.9), 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+}
+.wbtn-active-raised:active{
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #fff, inset -0.2rem -0.2rem 0.5rem rgba(195, 193, 198, 0.9), 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+}
+
 /* small button */
 .wbtn-sm {
   width: 6rem;
@@ -267,6 +275,14 @@ body{
   box-shadow: inset 0.5rem 0.2rem 1rem rgb(185 175 185 / 27%), inset -0.1rem -0.1rem #fff;
 }
 
+.wbtn-hover-ridge:hover{
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+
+}
+.wbtn-active-ridge:active{
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+
+}
 /*----------------------------------------*/
 
 .wbtn-sunken {
@@ -280,4 +296,11 @@ body{
 }
 .wbtn-sunken:active{
   box-shadow: -0.3rem -0.3rem 0.5rem rgb(246 246 246), 0.2rem 0.2rem 0.4rem #b6bfcb;
+}
+
+.wbtn-hover-sunken:hover{
+  box-shadow: -0.3rem -0.3rem 0.5rem rgba(195, 193, 198, 0.9), 0.2rem 0.2rem 0.4rem #fff;
+}
+.wbtn-active-sunken:active{
+  box-shadow: -0.3rem -0.3rem 0.5rem rgba(195, 193, 198, 0.9), 0.2rem 0.2rem 0.4rem #fff;
 }
