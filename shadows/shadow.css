@@ -37,7 +37,7 @@ body{
     box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #FFFFFF;
 }
 
-.wshadow-active-default:hover{
+.wshadow-active-default:active{
     box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #FFFFFF;
 }
 
