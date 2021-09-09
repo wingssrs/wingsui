@@ -285,3 +285,17 @@ body{
   box-shadow: -0.3rem -0.3rem 0.5rem rgb(246 246 246), 0.2rem 0.2rem 0.4rem #b6bfcb;
 }
 
+
+.wbtn-icon{
+  margin: 20px 12px 20px 19px;
+}
+
+.wbtn-icon i{
+  font-size: 15px;
+  padding: 10px;
+  height: 12px;
+  width: 12px;
+  margin: 10px -15px 10px 15px;
+  border-radius: 50%;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(195, 193, 198, 0.9), inset -0.2rem -0.2rem 0.5rem #fff, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+}
