@@ -296,4 +296,5 @@ body{
   height: 12px;
   width: 12px;
   margin: 10px -15px 10px 15px;
+  border-radius:50%;
 }
