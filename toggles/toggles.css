@@ -1,0 +1,150 @@
+body{
+    background: #e0e5ec;
+}
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+
+  --secondary-light: #9c26e0;
+  --secondary:#6c00b0 ;
+  --secondary-dark:#31024e ;
+
+  --success:#4dc769;
+  --success-light:#5bd477;
+  --success-dark:#0a6d21;
+
+  --danger:#f93154;
+  --danger-light:#fa90a2;
+  --danger-dark:#9e001a;
+
+  --warning: #d99000;
+  --warning-light: #e7c277;
+  --warning-dark: #9e6b05;
+
+  --info:#39c0ed;
+  --info-light:#93d5eb;
+  --info-dark:#10627e;
+
+  --dark:#262626;
+  --dark-light:#414040;
+  --dark-dark:#000000;
+}
+
+  
+/*  SWITCH  */
+.switch {
+  display: flex;
+  align-items: center;
+}
+.switch input {
+  display: none;
+}
+.switch-toggle{
+  width: 4rem;
+}
+.switch-toggle label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+  background: rgba(255, 255, 255, 0);
+  position: relative;
+  cursor: pointer;
+  border-radius: 1.6rem;
+}
+.switch-toggle label::after {
+  content: "";
+  position: absolute;
+  left: 0.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--greyDark);
+  transition: all 0.4s ease;
+}
+.switch-toggle label::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.switch input:checked ~ label::before {
+  opacity: 1;
+}
+.switch input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px white, 1px 1px 3px #8699b2;
+  background: linear-gradient(330deg, var(--grey-dark) 0%, var(--greyLight-3) 50%, var(--greyLight-1) 100%);
+
+}
+.switch-success label::before{
+  background: linear-gradient(330deg, var(--success-dark) 0%, var(--success) 50%, var(--success-light) 100%);
+}
+.switch-success input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--success-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-primary label::before{
+  background: linear-gradient(330deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+}
+.switch-primary input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--primary-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-danger label::before{
+  background: linear-gradient(330deg, var(--danger-dark) 0%, var(--danger) 50%, var(--danger-light) 100%);
+}
+.switch-danger input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--danger-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-info label::before{
+  background: linear-gradient(330deg, var(--info-dark) 0%, var(--info) 50%, var(--info-light) 100%);
+}
+.switch-info input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--info-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-warning label::before{
+  background: linear-gradient(330deg, var(--warning-dark) 0%, var(--warning) 50%, var(--warning-light) 100%);
+}
+.switch-warning input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--warning-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-secondary label::before{
+  background: linear-gradient(330deg, var(--secondary-dark) 0%, var(--secondary) 50%, var(--secondary-light) 100%);
+}
+.switch-secondary input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--secondary-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-dark label::before{
+  background: linear-gradient(330deg, var(--dark-dark) 0%, var(--dark) 50%, var(--dark-light) 100%);
+}
+.switch-dark input:checked ~ label::after {
+  left: 57%;
+  box-shadow: -2px -2px 5px var(--dark-light), 1px 1px 3px #8699b2;
+  background: var(--greyLight-1);
+}
+.switch-text {
+  margin: 0 15px;
+  font-size: 17px;
+  color: var(--greyDark);
+  font-family: sans-serif;
+}
