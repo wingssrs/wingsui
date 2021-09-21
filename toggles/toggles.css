@@ -148,3 +148,7 @@ body{
   color: var(--greyDark);
   font-family: sans-serif;
 }
+.toggle-square label,.toggle-square label::after
+{
+  border-radius:0px;
+}
