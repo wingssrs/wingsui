@@ -3,7 +3,6 @@ body{
 }
 /* === SHADOW TYPES ===*/
 .wshadow-outset, .wshadow-raised, .wshadow-inset, .wshadow-sunken, .wshadow-ridge {
-  padding: 1rem 1.5rem;
   border-radius: 1.2rem;
   background: #e0e5ec;
   cursor: default;
@@ -12,11 +11,7 @@ body{
       -ms-user-select: none;
           user-select: none;
 }
-@media screen and (min-width: 30em) {
-  .wshadow-outset, .wshadow-raised, .wshadow-inset, .wshadow-sunken, .wshadow-ridge {
-    padding: 1rem 3rem;
-  }
-}
+
 .wshadow-outset {
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
