@@ -1,0 +1,54 @@
+body{
+    background: #e0e5ec;
+}
+
+  .wbtn-group{
+    display: flex;
+  }
+
+  .wbtn-group-vertical{
+    display: block;
+  }
+
+  .wbtn-group button{
+    margin: 1.5px;
+    border-radius: 0;
+  }
+  .wbtn-group-vertical button{
+    margin: 3px;
+    border-radius: 0;
+  }
+
+  .wbtn-toolbar{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .wbtn-toolbar .wbtn-group{
+    margin-right: 20px;
+  }
+  .wbtn-group-lg button{
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+.wbtn-group-sm button{
+  width: 6rem;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+.wbtn-group button:first-child{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.wbtn-group button:last-child{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.wbtn-group-vertical button:first-child{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.wbtn-group-vertical button:last-child{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
