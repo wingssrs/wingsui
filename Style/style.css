@@ -38,3 +38,6 @@ body{
   text-align: right;
   margin-left:auto;
 }
+.d-flex{
+  display:flex;
+}
