@@ -1,0 +1,40 @@
+body{
+  background: #e0e5ec;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-start{
+  text-align:start;
+}
+.text-end{
+  text-align: end;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+
+.float-center{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.float-start{
+  display: grid;
+  justify-content:left;
+  align-items: left;
+  text-align: left;
+  margin-right:auto;
+}
+.float-end{
+  display: grid;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  margin-left:auto;
+}
