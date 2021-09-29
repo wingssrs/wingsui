@@ -213,14 +213,12 @@ body{
 
 /* small button */
 .wbtn-sm {
-  width: 6rem;
   height: 2rem;
   font-size: 0.8rem;
 }
 
 /* large button */
 .wbtn-lg{
-  width: 10rem;
   height: 3.5rem;
   font-size: 1.5rem;
 }
