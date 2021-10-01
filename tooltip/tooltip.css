@@ -20,11 +20,7 @@ body{
 
   }
   
-  
-body{
-  margin: 50px;
-}
- 
+
 [data-tooltip]{
   position: relative; display: inline-flex;justify-content: center;
 }
